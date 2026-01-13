@@ -20,7 +20,7 @@ The solution is built **entirely in Power BI Desktop**, showcasing strong capabi
 The dashboard enables stakeholders to **quickly evaluate market trends, compare pricing behavior, and understand key drivers behind property sales**.
 
 ---
-
+ 
 ## 🎯 Project Objectives
 
 The primary objectives of this analysis are to:
