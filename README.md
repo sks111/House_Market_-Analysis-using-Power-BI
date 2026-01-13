@@ -1,173 +1,167 @@
-# 📊 Sales Analytics Dashboard — Power BI
+# 📊 House Market Analysis using Power BI
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811)
 ![DAX](https://img.shields.io/badge/DAX-red)
-![Power Query](https://img.shields.io/badge/Data%20Transformation-violet)
-![Power Query](https://img.shields.io/badge/Power%20Query-blue)
+![DAX](https://img.shields.io/badge/Data_Transformation-green)
+![DAX](https://img.shields.io/badge/Power_Query-blue)
 ![Status](https://img.shields.io/badge/Project-Complete-success)
 
 ---
 
-## 📌 Summary
+## 🧾Summary
 
-This project presents a **comprehensive sales analytics dashboard** developed entirely using **Microsoft Power BI**.  
-It demonstrates the **complete business intelligence workflow** within Power BI — from raw data ingestion and cleaning to advanced DAX calculations and interactive dashboard creation.
+This project presents an **end-to-end Power BI dashboard** designed to analyze **house market sales, pricing dynamics, and regional performance**.  
+The solution is built **entirely in Power BI Desktop**, showcasing strong capabilities in:
 
-The project is designed to showcase **strong Power BI skills**, including data transformation, data modeling, DAX time intelligence, and business-focused visualization.
+- Data preparation using **Power Query**
+- Analytical calculations using **DAX**
+- Insight-driven **interactive dashboard design**
+
+The dashboard enables stakeholders to **quickly evaluate market trends, compare pricing behavior, and understand key drivers behind property sales**.
 
 ---
 
-## 🎯 Business Problem Statement
+## 🎯 Project Objectives
 
-Organizations often face challenges such as:
-- Limited visibility into sales performance trends
-- Difficulty tracking year-over-year growth
-- Inconsistent pricing analysis (offer vs purchase price)
-- Fragmented regional performance insights
-- Dashboards that lack clarity for decision-makers
+The primary objectives of this analysis are to:
 
-This project addresses these challenges by building a **structured, interactive, and insight-driven Power BI dashboard** that enables stakeholders to quickly understand performance and take action.
+- Compare **offer price vs final purchase price**
+- Identify **high-performing regions and sales types**
+- Track **recent market trends and YoY growth**
+- Analyze **pricing efficiency using SQM-based metrics**
+- Understand **factors influencing house prices**
 
 ---
 
 ## 🧠 Dataset Overview
 
-The dataset consists of historical sales records containing:
-- Transaction dates
-- Sales values and quantities
-- Offer and purchase pricing
-- Regional segmentation
-- Property and customer attributes
+The dataset contains historical house market transaction records, including:
 
-The structure supports **time-based analysis**, **pricing comparison**, and **segmentation across multiple business dimensions**.
+- Date attributes (Year, Quarter, Month)
+- Offer price and purchase price
+- Property size (Square Meters)
+- House type and sales type
+- Region, city, and area
+- Additional property-related attributes
+
+This structure enables **time-based analysis, pricing comparison, and multi-dimensional filtering**.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🛠️ Tools & Technologies
 
-| Area | Tools |
-|----|------|
+| Area | Tool |
+|---|---|
 | BI Platform | Microsoft Power BI Desktop |
 | Data Preparation | Power Query Editor |
-| Data Modeling | Power BI Data Model |
 | Calculations | DAX |
-| Visualization | Power BI Interactive Visuals |
+| Visualization | Native Power BI Visuals |
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## 🔍 Data Preparation & Analysis
 
-EDA was performed directly within **Power BI** using **Power Query** and visuals to understand the dataset before building metrics.
+All data preparation was performed using **Power Query Editor**.
 
-### EDA Activities
-- Verified total record count and column completeness
-- Reviewed date ranges and sales distribution
-- Identified missing or inconsistent values
-- Analyzed pricing outliers and anomalies
-- Reviewed regional and categorical coverage
-
-📌 **Outcome:**  
-Ensured the data was reliable, complete, and suitable for accurate reporting and analysis.
-
----
-
-## 🧩 Data Cleaning & Transformation (Power Query)
-
-Data preparation was conducted using **Power Query Editor** to create a clean and analysis-ready dataset.
-
-### Key Transformations
-- Handling missing and null values
-- Standardizing date and numeric formats
+Key steps included:
+- Cleaning missing and inconsistent values
+- Standardizing numeric and date formats
 - Creating calculated columns such as:
-  - Age
-  - Offer Price per Square Meter
-- Removing unnecessary columns
-- Ensuring consistent categorical values
+  - **Age**
+  - **Offer Price per SQM**
+- Removing unnecessary fields
+- Ensuring consistency across categorical data
 
-These steps ensured high data quality and reliable calculations.
-
----
-
-## 🧠 Data Modeling
-
-A clean and efficient data model was created within Power BI:
-- Proper relationships between tables
-- Optimized column data types
-- Logical organization of measures and fields
-
-This modeling approach supports **fast performance** and **accurate calculations**.
+These steps ensured **high-quality, analysis-ready data**.
 
 ---
 
-## 🧮 DAX Measures & Calculations
+## 🧮 DAX Measures & Logic
 
-Advanced **DAX measures** were created to support business analysis.
+Advanced DAX measures were created to support meaningful business analysis.
 
-### Time Intelligence Metrics
+### ⏱️ Time Intelligence Metrics
 - **Year-over-Year (YoY) Sales Growth**
 - **Year-to-Date (YTD) Sales**
-- **Last 12 Months (LTM) Sales**
-- Quarterly and yearly aggregations
+- **Last 12 Months Sales**
 
-### Sales & Pricing Metrics
+These measures allow stakeholders to assess both **short-term momentum and long-term trends**.
+
+### 💰 Pricing & Performance Metrics
 - Units Sold
-- Average and Median Sales Prices
+- Average Sales Price
+- **Median Sales Price Change**
 - Offer Price vs Purchase Price
 - Offer Price per Square Meter
 
-### DAX Functions Used
-- `CALCULATE`
-- `SUM`
-- `MAX`
-- `YEAR`, `QUARTER`
-- `DATESINPERIOD`
-- `ALLEXCEPT`
-- `IF`, `BLANK`
-- `MEDIANX`
-- `TOTALYTD`
+### 🔑 Key DAX Functions Used
+`CALCULATE`, `SUM`, `MAX`, `DATESINPERIOD`, `TOTALYTD`,  
+`ALLEXCEPT`, `IF`, `BLANK`, `MEDIANX`
 
 ---
 
-## 📊 Dashboard Pages & Visual Design
+## 📊 Dashboard Overview & Insights
 
-The dashboard was designed using **best practices in data visualization**, focusing on clarity, usability, and storytelling.
-
-### 🔹 Sales Performance Page
-- KPI Cards (Sales, Units Sold, YoY Growth)
-- Line charts showing trends over time
-- Donut chart for contribution analysis
-- Clustered bar charts for comparisons
-
-### 🔹 Regional Performance Page
-- Sales by region
-- Median price comparison
-- Scatter plot for offer vs purchase price
-
-### 🔹 Customer & Property Insights Page
-- Key Influencers visual
-- Age-based analysis
-- House type performance
-- Offer vs purchase price comparison
+The Power BI report is organized into **multiple pages**, each designed with a clear analytical purpose.
 
 ---
 
-## 📈 Key Insights & Findings
+## 🌍 Sales Overview Dashboard
 
-- Sales trends show clear seasonality and growth patterns
-- Pricing varies significantly across regions
-- Median prices provide more reliable insights than averages
-- Offer prices frequently differ from final purchase prices
-- Customer and property attributes influence sales outcomes
+![Sales Overview](https://github.com/sks111/House_Market_-Analysis-using-Power-BI/blob/main/Screenshot%20(2).png)
+
+### Purpose
+Provide a **high-level overview of sales performance** across regions and sales types.
+
+### Key Visuals
+- Sales by Region
+- Average Price per SQM by Region
+- Key Influencers analysis
+- Offer-to-SQM ratio by sales type
+- Detailed transaction table
+
+### Business Insights
+- Certain regions contribute disproportionately to total sales
+- Sales type significantly impacts pricing efficiency
+- Multiple attributes influence final purchase prices
+
+---
+
+## 📈 House Market Overview Dashboard
+
+![House Market Overview](https://github.com/sks111/House_Market_-Analysis-using-Power-BI/blob/main/Screenshot%20(3).png)
+
+### Purpose
+Track **overall market trends and recent performance indicators**.
+
+### Key Visuals
+- Median sales price change by region
+- Units sold in the latest quarter
+- Last 12 months sales
+- Offer vs purchase price scatter plot
+- YoY sales growth by sales type
+
+### Business Insights
+- Regional variation in price growth trends
+- Recent quarters highlight shifts in market momentum
+- Strong correlation between offer and final purchase prices
+
+---
+
+## 📈 Key Insights Summary
+
+- Significant regional variation in both sales volume and pricing
+- Median-based analysis provides more reliable insights than averages
+- Offer prices often differ meaningfully from final purchase prices
+- Time-intelligence metrics clearly highlight market trends
 
 ---
 
 ## 📌 Assumptions & Limitations
 
-- Analysis is based on the available dataset
+- Analysis is based on historical data
 - Currency consistency is assumed
-- Some transformations are handled in Power Query
-- Results reflect historical data and do not predict future outcomes
+- Results are descriptive, not predictive
 
 ---
-
 
