@@ -107,7 +107,7 @@ The Power BI report is organized into **multiple pages**, each designed with a c
 ---
 ## 🏠 House Market Analysis
 
-![House Market Analysis](https://github.com/sks111/House_Market_-Analysis-using-Power-BI/blob/main/Screenshot%20(1).png)
+![House Market Analysis](https://github.com/sks111/House_Market_-Analysis-using-Power-BI/blob/main/screenshot/House%20Market%20analysis.png)
 
 ### Purpose
 To analyze **house market performance by house type**, focusing on pricing, size, and financial characteristics.
@@ -132,7 +132,7 @@ To analyze **house market performance by house type**, focusing on pricing, size
 
 ## 🌍 Sales Overview Dashboard
 
-![Sales Overview](https://github.com/sks111/House_Market_-Analysis-using-Power-BI/blob/main/Screenshot%20(2).png)
+![Sales Overview](https://github.com/sks111/House_Market_-Analysis-using-Power-BI/blob/main/screenshot/sales%20overview.png)
 
 ### Purpose
 Provide a **high-level overview of sales performance** across regions and sales types.
@@ -153,7 +153,7 @@ Provide a **high-level overview of sales performance** across regions and sales 
 
 ## 📈 House Market Overview Dashboard
 
-![House Market Overview](https://github.com/sks111/House_Market_-Analysis-using-Power-BI/blob/main/Screenshot%20(3).png)
+![House Market Overview](https://github.com/sks111/House_Market_-Analysis-using-Power-BI/blob/main/screenshot/house%20market%20overview.png)
 
 ### Purpose
 Track **overall market trends and recent performance indicators**.
