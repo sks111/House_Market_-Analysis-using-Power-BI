@@ -105,6 +105,30 @@ These measures allow stakeholders to assess both **short-term momentum and long-
 The Power BI report is organized into **multiple pages**, each designed with a clear analytical purpose.
 
 ---
+## 🏠 House Market Analysis
+
+![House Market Analysis](https://github.com/sks111/House_Market_-Analysis-using-Power-BI/blob/main/Screenshot%20(1).png)
+
+### Purpose
+To analyze **house market performance by house type**, focusing on pricing, size, and financial characteristics.
+
+### Key Visuals
+- **Average Offer Price vs Average Purchase Price by House Type**
+- **Average Yield, Inflation & Interest % by House Type**
+- **Average SQM vs Average Price per SQM**
+- Interactive slicers for:
+  - Region
+  - City
+  - Area
+  - Sales Type
+
+### Business Insights
+- Different house types show distinct pricing behavior
+- Larger properties have higher absolute prices, but not always better price efficiency
+- Price-per-SQM helps normalize comparisons across property sizes
+- Financial indicators vary significantly by house type
+
+---
 
 ## 🌍 Sales Overview Dashboard
 
