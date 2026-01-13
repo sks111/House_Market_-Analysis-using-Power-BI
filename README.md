@@ -15,7 +15,7 @@ The solution is built **entirely in Power BI Desktop**, showcasing strong capabi
 
 - Data preparation using **Power Query**
 - Analytical calculations using **DAX**
-- Insight-driven **interactive dashboard design**
+- Insight-driven **interactive dashboard design** 
 
 The dashboard enables stakeholders to **quickly evaluate market trends, compare pricing behavior, and understand key drivers behind property sales**.
 
